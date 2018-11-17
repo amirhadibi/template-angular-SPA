@@ -6,6 +6,7 @@ import { ContainerComponent } from './container-component/container.component';
 import { Page1Component } from './page1-component/page1.component';
 import { Page2Component } from './page2-component/page2.component';
 import { Page1ContainerComponent } from './page1-component/page1Container.component';
+import { Page2ContainerComponent } from './page2-component/page2Container.component';
 import { NavbarComponent } from './navbar-component/navbar.component';
 
 
@@ -15,7 +16,7 @@ export const ROUTES: Routes = [
   {path: '', component: HomeComponent },
   {path: 'home', component: HomeComponent},
   {path: 'page1', component: Page1ContainerComponent},
-  {path: 'page2', component: Page2Component},
+  {path: 'page2', component: Page2ContainerComponent},
 
 ];
 @NgModule({
@@ -26,6 +27,7 @@ export const ROUTES: Routes = [
     Page2Component,
     ContainerComponent,
     Page1ContainerComponent,
+    Page2ContainerComponent,
     NavbarComponent,
   ],
   imports: [
