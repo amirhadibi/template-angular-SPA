@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
-import 'rxjs/add/operator/map';
+import { map, take } from 'rxjs/operators';
+
 
 @Component({
     selector: 'page2',

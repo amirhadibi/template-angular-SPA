@@ -8,6 +8,7 @@ import { Page2Component } from './page2-component/page2.component';
 import { Page1ContainerComponent } from './page1-component/page1Container.component';
 import { Page2ContainerComponent } from './page2-component/page2Container.component';
 import { NavbarComponent } from './navbar-component/navbar.component';
+import {AgGridModule} from 'ag-grid-angular';
 
 
 import { AppComponent } from './app.component';
@@ -33,6 +34,7 @@ export const ROUTES: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES), 
+    AgGridModule.withComponents([AppComponent]),
 
   ],
   providers: [],

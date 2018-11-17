@@ -1,10 +1,11 @@
 import {Component, EventEmitter, Output} from "@angular/core";
 //import {documentListService} from './document-list.service';
 
-//import {GridOptions} from "ag-grid";
+import {GridOptions} from "ag-grid";
 //import { SpinnerService } from '../shared/spinner.service';
 
-import 'rxjs/add/operator/map';
+import { map, take } from 'rxjs/operators';
+
 import { Router } from "@angular/router";
 
 @Component({
@@ -15,11 +16,11 @@ import { Router } from "@angular/router";
 export class Page1Component {
     @Output() alertEvent = new EventEmitter();
 
-    //private gridOptions: GridOptions;
-    //private columnDefs: any[];
-    //private myOptions: string[] = ["contains", "notContains", "equals", "startsWith", "endsWith"];
-    //public rowData: any[];
-    //public selectedIndex: number=0;
+    private gridOptions: GridOptions;
+    private columnDefs: any[];
+    private myOptions: string[] = ["contains", "notContains", "equals", "startsWith", "endsWith"];
+    public rowData: any[];
+    public selectedIndex: number=0;
 
     public doc_list; // For testing API Gateway on AWS
     public gMessage: string;
@@ -65,8 +66,10 @@ export class Page1Component {
 
     constructor(private router: Router) {
         //console.log('I am in constructor()!');
-        //this.gridOptions = <GridOptions>{};        
-        //this.createColumnDefs();  
+
+        this.gridOptions = <GridOptions>{};        
+        this.createColumnDefs();  
+
         // Clear localStorage:
         localStorage.clear(); 
         //console.log("localStorage cleared!!!");     
@@ -76,7 +79,7 @@ export class Page1Component {
         //console.log('I am in createColumnDefs()!');
         // It doesn't mater what percentage we assign to columns, but we need to make sure total is 100%, 
         //which is equal to the percentage in wrapper class (.panel-doclist) located in app.component.scss.
-        /*
+        
         this.columnDefs = [
             {headerName: "Doc ID", field: "DOCUMENTID", filter: 'number', minWidth: '5%',
                 filterParams: { filterOptions: this.myOptions, applyButton: true, clearButton:true }},
@@ -89,7 +92,7 @@ export class Page1Component {
             {headerName: "Type", field: "REPORTTYPECODE", filter: "text", suppressMenu: true, minWidth: '10%'},
             {headerName: "Status", field: "MNEMONIC", minWidth: '10%', filter: "text", filterParams: { applyButton: true, clearButton:true }},
         ];
-        */
+        
     }
         
     returnRows() {
@@ -99,10 +102,10 @@ export class Page1Component {
 
     ngOnInit() {
         //console.log('I am in ngOnInit()!');
-        //this.getDocist();
+        //this.getDocList();
 
         // we pass an empty gridOptions in, so we can grab the api out
-        /*
+        
         this.gridOptions = <GridOptions>{};
 
         this.gridOptions.enableServerSideSorting = true;
@@ -111,11 +114,11 @@ export class Page1Component {
         
         // Retreive rows from database and display them in grid:
         this.gridOptions.datasource = this.dataSource; 
-        */
+        
     }
 
     private onGridReady(params: any) {
-        //this.gridOptions.api.sizeColumnsToFit(); // This removes horizon scroll bar
+        this.gridOptions.api.sizeColumnsToFit(); // This removes horizon scroll bar
     }        
 
     private selectFirstRow() {
