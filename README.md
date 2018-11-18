@@ -21,5 +21,5 @@
 				<b> AgGridModule.withComponents([AppComponent]), </b>
 </p>
 <p>
-	4. Define the grid in <ins> page1.html </ins> & <ins> page1.ts  </ins> files
+	4. Define the grid in <b>page1.html</b> & <b>page1.ts</b> files
 </p>
