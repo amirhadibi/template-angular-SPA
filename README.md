@@ -13,13 +13,13 @@
 				<b> npm install --save ag-grid ag-grid-angular ag-grid-community </b> 
 </p>
 <p>
- 	2. Add the following import line to app.module.ts: 
+ 	2. Add the following line in app.module.ts: 
 				<b> import {AgGridModule} from 'ag-grid-angular'; </b>
 </p>
 <p>
-	3. Add the following declaration to app.module.ts: 
+	3. Add the following line in declaration section of app.module.ts: 
 				<b> AgGridModule.withComponents([AppComponent]), </b>
 </p>
 <p>
-	4. Define the grid in <b>page1.html & page1.ts files </b>
+	4. Define the grid in <ul> page1.html </ul> & <ul> page1.ts files </ul>
 </p>
