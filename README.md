@@ -1,5 +1,5 @@
 # angular-home-page
-<h3> A template for creating a simple angular single page application.</h3>
+<h3> A template for creating a simple angular Single Page Application.</h3>
 
 <h4> To add ag-grid, I followed these steps: </h4>
 
