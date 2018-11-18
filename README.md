@@ -1,10 +1,10 @@
 # template-angular-SAP
 
-<h3> Install the Angular CLI </h3>
+<h3> Step 1: Install the Angular CLI </h3>
 
-<h4> To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart </h4>
+<p> To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart </p>
 
-<h4> Install ag-grid </h4>
+<h3> Step 2: Install ag-grid </h4>
 
 <p> To install ag-grid in your project, please followe these steps:</p>
 
