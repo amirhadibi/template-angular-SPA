@@ -81,9 +81,9 @@ export class Page1Component {
         //which is equal to the percentage in wrapper class (.panel-doclist) located in app.component.scss.
         
         this.columnDefs = [
-            {headerName: "Doc ID", field: "DOCUMENTID", filter: 'number', minWidth: '5%',
+            {headerName: "Doc ID", field: "DOCUMENTID", filter: 'agNumberColumnFilter', minWidth: '5%',
                 filterParams: { filterOptions: this.myOptions, applyButton: true, clearButton:true }},
-            {headerName: "Comp #", field: "COMPNUMBER", filter: 'number', minWidth: '5%',
+            {headerName: "Comp #", field: "COMPNUMBER", filter: 'agNumberColumnFilter', minWidth: '5%',
                 filterParams: { filterOptions: this.myOptions, applyButton: true, clearButton:true }},
             {headerName: "Comp Name", field: "COMPANYNAME", minWidth: '30%',
                 filter: "text", filterParams: { filterOptions: this.myOptions, applyButton: true, clearButton:true }},
