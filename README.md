@@ -1,8 +1,8 @@
-# angular-home-page
-<h3> A template for creating a simple angular Single Page Application.</h3>
+# template-angular-SAP
 
-<h4> Install the Angular CLI </h4>
-<P> To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart </p>
+<h3> Install the Angular CLI </h3>
+
+<h4> To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart </h4>
 
 <h4> Install ag-grid </h4>
 
