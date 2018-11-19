@@ -1,5 +1,7 @@
 # template-angular-SAP
 
+<h2>Installation steps on your Mac:</h3>
+
 <p>Step 1: Create a local folder on your Mac</p>
 
 <p>Step 2: Open terminal and type: <b>git init</b></p>
@@ -14,7 +16,9 @@
 
 <p>You can also modify the code in your local folder and continue developing on top of each branch.</p>
 
-<h3>How did I create new-page branch?</h3>
+<h2>If you want to do it by yourself:</h3>
+
+<h3> Step 1: Create a local folder on your Mac </h3>
 
 <h3> Step 1: Install the Angular CLI </h3>
 
