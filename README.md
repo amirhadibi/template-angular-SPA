@@ -4,12 +4,12 @@
 
 <ins>Step 1:</ins> Create a local folder on your Mac
 
-<ins>Step 2:</ins> Open terminal and type: <b>git init</b>
+<ins>Step 2:</ins> Open terminal and type: <ol><b>git init</b></ol>
 
 <ins>Step 3:</ins> Continue in terminal and type: 
-<br><ol>git remote add origin https://github.com/amirhadibi/template-angular-SAP.git</ol>
+<br><ol><b>git remote add origin https://github.com/amirhadibi/template-angular-SAP.git</b></ol>
 
-<ins>Step 4:</ins> Continue in terminal and type: <br><ol>checkout -f [branch-name]</ol>
+<ins>Step 4:</ins> Continue in terminal and type: <br><ol><b>checkout -f [branch-name]</b></ol>
 
 <p>That's it! You are done. You can now continue in terminal and type: <b>ng serve</b> and finally check out the result in your browser at <b>localhost:4200</b></p>
 
