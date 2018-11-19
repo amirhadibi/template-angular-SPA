@@ -121,7 +121,7 @@ export class Page1Component {
     }        
 
     private selectFirstRow() {
-    /*
+
         // scrolls to the first row
         this.gridOptions.api.ensureIndexVisible(this.selectedIndex);
 
@@ -134,7 +134,7 @@ export class Page1Component {
 
         let rowNode = this.gridOptions.api.getDisplayedRowAtIndex(this.selectedIndex);
         rowNode.setSelected(true);
-    */    
+       
     }
 
 /* it shows horizon scroll bars in Windows
@@ -338,6 +338,7 @@ export class Page1Component {
 
 
     // to test api query on AWS:
+    /*
     getDocList() { 
         console.log('I am in getDocList()!');
         this._gridService.getDocumentList().subscribe(
@@ -349,6 +350,7 @@ export class Page1Component {
           () => console.log('done with getDocList()')
         );
     }
+    */
 
 
     onRowClicked(event: any) { 
@@ -392,28 +394,6 @@ export class Page1Component {
             this.router.navigate(['/details']);
         }
     }
-
-    /*
-    public sizeToFit() {
-        this.gridOptions.api.sizeColumnsToFit();
-    };
-    
-    public autoSizeAll() {
-        let allColumnIds = [];
-        this.columnDefs.forEach( function(columnDef) {
-            allColumnIds.push(columnDef.field);
-        });
-        this.gridOptions.columnApi.autoSizeColumns(allColumnIds);
-    }
-
-    private onModelUpdated() {
-        //console.log('I am in onModelUpdated()!');
-        if (this.gridOptions.api && this.columnDefs) {
-            //console.log('I am in onModelUpdated()!');
-            this.gridOptions.columnApi.autoSizeColumns(this.columnDefs);
-        }
-    }
-*/
 
 }
 
