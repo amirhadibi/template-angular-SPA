@@ -1,16 +1,16 @@
 # template-angular-SAP
 
-<h2>Installation steps on your Mac:</h3>
+<h2>Installation steps on your Mac:</h2>
 
-<p>Step 1: Create a local folder on your Mac</p>
+<h4>Step 1: Create a local folder on your Mac</h4>
 
-<p>Step 2: Open terminal and type: <b>git init</b></p>
+<h4>Step 2: Open terminal and type: <b>git init</b></h4>
 
-<p>Step 3: Continue in terminal and type: <b>git remote add origin https://github.com/amirhadibi/template-angular-SAP.git</b></p>
+<h4>Step 3: Continue in terminal and type: <b>git remote add origin https://github.com/amirhadibi/template-angular-SAP.git</b></h4>
 
-<p>Step 4: Continue in terminal and type: <b>checkout -f [branch-name]</b></p>
+<h4>Step 4: Continue in terminal and type: <b>checkout -f [branch-name]</b></h4>
 
-<p>That's it! You are done. You can now continue in terminal and type: <b>ng serve</b> 
+<p>That's it! You are done. You can now continue in terminal and type: <b>ng serve</b>,</p> 
   
 <p>Check out the result in your browser at <b>localhost:4200</b></p>
 
