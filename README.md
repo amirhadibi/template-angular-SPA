@@ -24,12 +24,10 @@
 
 <p>To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart</p>
 
-<p>Step 3: Install ag-grid</p>
-
-<p>To install ag-grid in your project, please follow these steps:</p>
-
-<p>a.Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b> </p>
-<p>b.Add the following line in app.module.ts: <b> import {AgGridModule} from 'ag-grid-angular'; </b></p>
-<p>c.Add the following line in declaration section of app.module.ts: <b> AgGridModule.withComponents([AppComponent]), </b></p>
-<p>d.Define the grid in <b>page1.html</b> & <b>page1.ts</b> files</p>
+<h4>Step 3: Install ag-grid</h4>
+<p>   To install ag-grid in your project, please follow these steps:</p>
+<p>a. Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b> </p>
+<p>b. Add the following line in app.module.ts: <b> import {AgGridModule} from 'ag-grid-angular'; </b></p>
+<p>c. Add the following line in declaration section of app.module.ts: <b> AgGridModule.withComponents([AppComponent]), </b></p>
+<p>d. Define the grid in <b>page1.html</b> & <b>page1.ts</b> files</p>
 
