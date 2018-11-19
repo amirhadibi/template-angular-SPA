@@ -19,13 +19,13 @@ Step 4: Continue in terminal and type: <b>checkout -f [branch-name]</b>
 
 Step 1: Create a local folder on your Mac
 
-Step 2: Install the Angular CLI<br>
-To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart
+Step 2: Install the Angular CLI<br><ol>
+To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart</ol>
 
 Step 3: Install ag-grid<br>
 To install ag-grid in your project, please follow these steps:<br><ol>
-a. Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b><br>&nbsp
-b. Add the following line in app.module.ts: <b> import {AgGridModule} from 'ag-grid-angular'; </b><br>&nbsp
-c. Add the following line in declaration section of app.module.ts: <b> AgGridModule.withComponents([AppComponent]),</b><br>&nbsp
+a. Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b><br>
+b. Add the following line in app.module.ts: <b> import {AgGridModule} from 'ag-grid-angular'; </b><br>
+c. Add the following line in declaration section of app.module.ts: <b> AgGridModule.withComponents([AppComponent]),</b><br>
 d. Define the grid in <b>page1.html</b> & <b>page1.ts</b> files</ol>
 
