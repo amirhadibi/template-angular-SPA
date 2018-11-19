@@ -18,29 +18,18 @@
 
 <h2>If you want to do it by yourself:</h3>
 
-<h3> Step 1: Create a local folder on your Mac </h3>
+<p>Step 1: Create a local folder on your Mac</p>
 
-<h3> Step 1: Install the Angular CLI </h3>
+<p>Step 2: Install the Angular CLI</p>
 
-<p> To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart </p>
+<p>To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart</p>
 
-<h3> Step 2: Install ag-grid </h4>
+<p>Step 3: Install ag-grid</p>
 
-<p> To install ag-grid in your project, please followe these steps:</p>
+<p>To install ag-grid in your project, please follow these steps:</p>
 
-<p>	
-	1. Type this in terminal: 
-				<b> npm install --save ag-grid ag-grid-angular ag-grid-community </b> 
-</p>
-<p>
- 	2. Add the following line in app.module.ts: 
-				<b> import {AgGridModule} from 'ag-grid-angular'; </b>
-</p>
-<p>
-	3. Add the following line in declaration section of app.module.ts: 
-				<b> AgGridModule.withComponents([AppComponent]), </b>
-</p>
-<p>
-	4. Define the grid in <b>page1.html</b> & <b>page1.ts</b> files
-</p>
+<p>a.Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b> </p>
+<p>b.Add the following line in app.module.ts: <b> import {AgGridModule} from 'ag-grid-angular'; </b></p>
+<p>c.Add the following line in declaration section of app.module.ts: <b> AgGridModule.withComponents([AppComponent]), </b></p>
+<p>d.Define the grid in <b>page1.html</b> & <b>page1.ts</b> files</p>
 
