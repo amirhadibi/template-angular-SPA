@@ -6,7 +6,7 @@
 
 <h4>Step 2: Open terminal and type: <b>git init</b></h4>
 
-<h4>Step 3: Continue in terminal and type: <br>&nbsp
+<h4>Step 3: Continue in terminal and type: <br>&nbsp&nbpp&nbsp
 <b>git remote add origin https://github.com/amirhadibi/template-angular-SAP.git</b></h4>
 
 <h4>Step 4: Continue in terminal and type: <b>checkout -f [branch-name]</b></h4>
@@ -19,13 +19,13 @@
 
 <h4>Step 1: Create a local folder on your Mac</h4>
 
-<h4>Step 2: Install the Angular CLI</h4>
-<br>To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart</p>
+<h4>Step 2: Install the Angular CLI</h4><br>&nbsp&nbpp&nbsp
+<p>To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart</p>
 
-<h4>Step 3: Install ag-grid</h4><br>
-To install ag-grid in your project, please follow these steps:
-<br>a. Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b> 
-<br>b. Add the following line in app.module.ts: <b> import {AgGridModule} from 'ag-grid-angular'; </b>
-<br>c. Add the following line in declaration section of app.module.ts: <b> AgGridModule.withComponents([AppComponent]), </b>
-<br>d. Define the grid in <b>page1.html</b> & <b>page1.ts</b> files</p>
+<h4>Step 3: Install ag-grid</h4><br>&nbsp&nbpp&nbsp
+<p>To install ag-grid in your project, please follow these steps:<br>&nbsp&nbpp&nbsp
+a. Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b><br>&nbsp&nbpp&nbsp 
+b. Add the following line in app.module.ts: <b> import {AgGridModule} from 'ag-grid-angular'; </b><br>&nbsp&nbpp&nbsp
+c. Add the following line in declaration section of app.module.ts: <b> AgGridModule.withComponents([AppComponent]),</b><br>&nbsp&nbpp&nbsp
+d. Define the grid in <b>page1.html</b> & <b>page1.ts</b> files</p>
 
