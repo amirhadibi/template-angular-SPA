@@ -9,7 +9,7 @@
 <ins>Step 3:</ins> Continue in terminal and type: 
 <br><ol>git remote add origin https://github.com/amirhadibi/template-angular-SAP.git</ol>
 
-<ins>Step 4:</ins> Continue in terminal and type: <b>checkout -f [branch-name]</b>
+<ins>Step 4:</ins> Continue in terminal and type: <br><ol>checkout -f [branch-name]</ol>
 
 <p>That's it! You are done. You can now continue in terminal and type: <b>ng serve</b> and finally check out the result in your browser at <b>localhost:4200</b></p>
 
@@ -19,8 +19,7 @@
 
 <ins>Step 1:</ins> Create a local folder on your Mac
 
-<ins>Step 2:</ins> Install the Angular CLI<br><ol>
-To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart</ol>
+<ins>Step 2:</ins> Install the Angular CLI by following instructions in https://angular.io/guide/quickstart
 
 <ins>Step 3:</ins> Followthese steps to install ag-grid:<br><ol>
 a. Type this in terminal: <b> npm install --save ag-grid ag-grid-angular ag-grid-community </b><br>
