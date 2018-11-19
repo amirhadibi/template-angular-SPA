@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Output} from "@angular/core";
-import {dataService} from '../grid-service/grid.service';
+import {GridService} from '../grid-service/grid.service';
 
 import {GridOptions} from "ag-grid";
 //import { SpinnerService } from '../shared/spinner.service';
@@ -38,8 +38,8 @@ export class Page1Component {
             //console.log('Spinner On');
                 
         
-            //this.returnRows().subscribe(rowData => {
-            /*
+            this.returnRows().subscribe(rowData => {
+
                 // take a slice of the total rows
                 let dataAfterSortingAndFiltering = this.sortAndFilter(rowData, params.sortModel, params.filterModel);
                 let rowsThisPage = dataAfterSortingAndFiltering.slice(params.startRow, params.endRow);
@@ -50,7 +50,7 @@ export class Page1Component {
                     lastRow = dataAfterSortingAndFiltering.length;
                 }
 
-                this._loaderService.display(false);
+                //this._loaderService.display(false);
                 //console.log('Spinner Off');
         
                 //call the success callback
@@ -58,13 +58,12 @@ export class Page1Component {
 
                 // set focus on the first row
                 this.selectFirstRow();
-            */
 
-            //});
+            });
         }    
     }    
 
-    constructor(private router: Router) {
+    constructor(private router: Router, private _gridService: GridService) {
         //console.log('I am in constructor()!');
 
         this.gridOptions = <GridOptions>{};        
@@ -96,8 +95,8 @@ export class Page1Component {
     }
         
     returnRows() {
-        //console.log('I am in docList returnRows()!');        
-        //return this._doclistService.getDocumentList();        
+        console.log('I am in docList returnRows()!');        
+        return this._gridService.getDocumentList();        
     }    
 
     ngOnInit() {
@@ -337,21 +336,20 @@ export class Page1Component {
         return resultOfFilter;
     }
 
-/*
+
     // to test api query on AWS:
-    getDocist() { 
-        //console.log('I am in getDocList()!');
-        //this._demoService.getStatus().subscribe(
-        this._doclistService.getDocumentList().subscribe(
+    getDocList() { 
+        console.log('I am in getDocList()!');
+        this._gridService.getDocumentList().subscribe(
             // the first argument is a function which runs on success
           data => { this.doc_list = data},
           // the second argument is a function which runs on error
           err => console.error(err),
           // the third argument is a function which runs on completion
-          () => //console.log('done with getDocList()')
+          () => console.log('done with getDocList()')
         );
     }
-*/
+
 
     onRowClicked(event: any) { 
         //console.log('onRowClicked type: ' + event.node.data.REPORTTYPECODE);
