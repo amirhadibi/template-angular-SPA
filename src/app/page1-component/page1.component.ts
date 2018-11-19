@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Output} from "@angular/core";
-//import {documentListService} from './document-list.service';
+import {dataService} from '../grid-service/grid.service';
 
 import {GridOptions} from "ag-grid";
 //import { SpinnerService } from '../shared/spinner.service';

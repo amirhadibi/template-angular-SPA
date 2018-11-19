@@ -4,13 +4,13 @@ import { map } from 'rxjs/operators';
 import { AppSettings } from '../appsettings';
 
 @Injectable()
-export class documentListService {
+export class GridService {
 
     constructor(public http:Http) {}
 
     getDocumentList() {
         const endpoint = AppSettings.DOC_LIST_API_ENDPOINT;
-        return this.http.get(endpoint).map((res:Response) => res.json());
+        return this.http.get(endpoint).pipe(map((res:Response) => res.json()));
     }
 
 }
