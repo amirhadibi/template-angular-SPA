@@ -18,10 +18,9 @@
 
 <h2>If you want to do it by yourself:</h3>
 
-<p>Step 1: Create a local folder on your Mac</p>
+<h4>Step 1: Create a local folder on your Mac</h4>
 
-<p>Step 2: Install the Angular CLI</p>
-
+<h4>Step 2: Install the Angular CLI</h4>
 <p>To install Angular CLI, please follow instructions in https://angular.io/guide/quickstart</p>
 
 <h4>Step 3: Install ag-grid</h4>
