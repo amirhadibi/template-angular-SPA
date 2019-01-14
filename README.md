@@ -1,4 +1,4 @@
-# template-angular-SAP
+# template-angular-SPA
 
 <h2>Installation steps on your Mac:</h2>
 
