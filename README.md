@@ -7,7 +7,7 @@
 <ins>Step 2:</ins> Open terminal and type: <ol><b>git init</b></ol>
 
 <ins>Step 3:</ins> Continue in terminal and type: 
-<br><ol><b>git remote add origin https://github.com/amirhadibi/template-angular-SAP.git</b></ol>
+<br><ol><b>git remote add origin https://github.com/amirhadibi/template-angular-SPA.git</b></ol>
 
 <ins>Step 4:</ins> Continue in terminal and type: <br><ol><b>checkout -f [branch-name]</b></ol>
 
