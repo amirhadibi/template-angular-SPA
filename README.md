@@ -9,7 +9,7 @@
 <ins>Step 3:</ins> Continue in terminal and type: 
 <br><ol><b>git remote add origin https://github.com/amirhadibi/template-angular-SPA.git</b></ol>
 
-<ins>Step 4:</ins> Continue in terminal and type: <br><ol><b>checkout -f [branch-name]</b></ol>
+<ins>Step 4:</ins> Continue in terminal and type: <br><ol><b>git checkout -f [branch-name]</b></ol>
 
 <p>That's it! You are done. You can now continue in terminal and type: <b>ng serve</b> and finally check out the result in your browser at <b>localhost:4200</b></p>
 
